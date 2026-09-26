@@ -1,0 +1,4 @@
+- [ ] 在實體 Linux 主機 (非 VM) 跑一次, 確認 O_DIRECT 的 disk 數字合理
+- [ ] compare 命令: 兩份報告逐指標比較, 依 better 方向標示變好或變差
+- [ ] 報告增加 os-bench 版本, 指標語意變更時才能判斷報告能否互比
+- [ ] 登記為 tools 分類的 submodule 並在分類 README 補一列

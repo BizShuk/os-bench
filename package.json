@@ -1,0 +1,14 @@
+{
+  "name": "os-bench",
+  "version": "0.0.0",
+  "private": true,
+  "description": "跑 CPU / memory / disk / network benchmark, 產出主機效能報告作為服務評估基準",
+  "scripts": {
+    "dev": "go run . run --duration 1s",
+    "test": "go test ./...",
+    "build": "go build -o bin/os-bench .",
+    "deploy": "go install .",
+    "lint": "gofmt -l . && go vet ./... && GOOS=linux go vet ./...",
+    "clean": "rm -rf bin"
+  }
+}
