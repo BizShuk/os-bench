@@ -3,7 +3,7 @@ module github.com/bizshuk/os-bench
 go 1.26.6
 
 require (
-	github.com/bizshuk/gosdk v1.3.19
+	github.com/bizshuk/gosdk v1.8.5
 	github.com/shirou/gopsutil/v4 v4.26.8
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/viper v1.21.0
