@@ -8,6 +8,7 @@
     "test": "go test ./...",
     "build": "go build -o bin/os-bench .",
     "deploy": "go install .",
+    "install": "go install .",
     "lint": "gofmt -l . && go vet ./... && GOOS=linux go vet ./...",
     "clean": "rm -rf bin"
   }
